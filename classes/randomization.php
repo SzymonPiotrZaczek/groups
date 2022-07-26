@@ -20,10 +20,10 @@
         $groupSize = (int) $_POST['group_size'];
         $participantsArray = array_chunk($participantsArray, $groupSize);
 
-        ob_start();
+            ob_start();
         
         foreach ($participantsArray as $key => $value) {
-                echo 'Grupa ' . (int) ($key + 1) . ':' . '<br/>' . '<br/>' . implode('<br/>', $value) . '<br/>' . '<br/>';
+                echo 'Grupa ' . (int) ($key + 1) . ':' . '<br/>' . implode('<br/>', $value) . '<br/>' . '<br/>';
             }
             
             $final = ob_get_contents();

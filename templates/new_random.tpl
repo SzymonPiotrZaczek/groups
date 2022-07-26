@@ -6,5 +6,5 @@
 </div>
 
 <footer>
-    <span>Copyright &copy; SPZ 2022</span>
+    <span>Copyright &copy; Szymon Piotr Zaczek 2022</span>
 </footer>
