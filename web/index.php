@@ -23,6 +23,7 @@ use classes\randomization;
             $smarty->assign('final', $randomization->randomize());
             $smarty->display('new_random.tpl');
         }
+        
      } catch (Exception $e) {
         echo '<h1>Wystąpił błąd w aplikacji, spróbuj ponownie</h1>';
      } catch (Error $r) {
